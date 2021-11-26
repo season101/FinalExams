@@ -19,7 +19,9 @@
 
 ### Chapter 14 Basics of Functional Dependencies and Normalization for Relational Databases
 
+
 > To measure formally why one set of groupings of attributes into relation schemas is better than another.
+
 
 There are two levels at which we can discuss the goodness of relation schemas. The
 first is the logical (or conceptual) level—how users interpret the relation schemas
@@ -57,3 +59,4 @@ These can be classified as :
 1. Insertion Anomalies
 2. Deletion Anomalies
 3. Modification Anomalies
+
