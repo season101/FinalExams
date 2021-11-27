@@ -95,3 +95,8 @@ It can be achieved using Polymorphism and Interface/Abstract Class.
 - It helps us implement **Open Closed Principle.** Open means our program is open for **extension** and closed for **modification**. Due to this we can add functionality to our code without modifying our main program.
 
 Relevant codes for an Direction States in Direction Service can be implemented using State Design Pattern and Relevant codes can be found under path: `designpatterns\behavioural\state\statedesignimplementation` package.
+
+<br>
+
+### Iterator Pattern
+
