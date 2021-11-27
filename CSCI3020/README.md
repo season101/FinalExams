@@ -49,5 +49,12 @@ Reusing the Classes.
 Ability of objects to take on many forms. This can be achieved by making methods abstract. Thus, We should declare our class to be abstract.
 
 ### Unified Modeling Language
-Diagrammatic representation of classes and relationships(Inheritance, Composition and Dependenck) between them.
+Diagrammatic representation of classes and relationships(Inheritance, Composition and Dependency) between them.
 
+---
+
+## Behavioural Design Pattern
+
+### Memento Design Pattern
+
+![Memento Design Pattern](/Resources/MementoUML.jpg)
