@@ -57,4 +57,23 @@ Diagrammatic representation of classes and relationships(Inheritance, Compositio
 
 ### Memento Design Pattern
 
+
 ![Memento Design Pattern](/Resources/MementoUML.jpg)
+
+> It captures and restores an object's internal state.
+
+Without violating the encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
+
+#### Note:
+
+- **Caretaker** and **Memento** has composition relationship. 
+i.e. **Caretaker** Object is composed of many **Memento** Objects.
+
+- **Originator** and **Memento** class has dependency relationship. 
+
+- By creating two different classes: **Memento** and **Originator** We save the **Single Repsonsibility Principle(SRP)**. 
+**Originator** handles the objects and **Memento** class handles the state management.
+
+Relevant codes for an undo function in Text Editors can be implemented using Memento Design Pattern and Relevant codes can be found under path: `designpatterns\behavioral\memento` package.
+
+### State Design Pattern
