@@ -69,7 +69,7 @@ Diagrammatic representation of classes and relationships(Inheritance, Compositio
 
 Without violating the encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
-#### Note:
+**Note:**
 
 - **Caretaker** and **Memento** has composition relationship. 
 i.e. **Caretaker** Object is composed of many **Memento** Objects.
@@ -105,7 +105,7 @@ Relevant codes for an Direction States in Direction Service can be implemented u
 > Sequentially access the element of a collection.
 
 **Note**:
--  This helps us hide the internal implementation of iterator from the main class so that it doesn't break our main program when we choose to use differnet DS. we can simply make another iterator that implements Iterator interface.
+-  This helps us hide the internal implementation of iterator from the main class so that it doesn't break our main program when we choose to use differnet DS. we can simply make another iterator that implements Iterator interface. Relevant Iterator codes for an Product Collection can be implemented using Iterator Design Pattern and Relevant codes can be found under path: `designpatterns\behavioural\iterator` package.
 
 <br>
 
@@ -115,4 +115,17 @@ Relevant codes for an Direction States in Direction Service can be implemented u
 
 > Encapsulates an Algorithm inside a Class.
 
-It thus helps us to maintain **Single Responsibility** and **Open Close Principle.** Although it looks very similar to State Design, They are diferent. In state design, We could had a single state that showed various behaviours while here behaviour are initialized with different objects.
+**Note**
+- It thus helps us to maintain **Single Responsibility** and **Open Close Principle.** Although it looks very similar to State Design, They are diferent. In state design, We could had a single state that showed various behaviours while here behaviour are initialized with different objects. Relevant Strategy Design Implementation can be found for Encryption algorith for Chat Client Application under path: `designpatterns\behavioural\strategy` package.
+
+### Template Method
+
+![Template Pattern Desing](assets/TemplateUML.jpg)
+
+> It defers the exact steps of an algorithm to a subclass.
+
+**Note:**
+- It can make the use of the Abstract Class/Methods or Inheritance Relationship. It makes use of hooks operation leaving out subclass to either use it or override it. Relevant Template Design Method Implementation can be found for Window GUI Application under path: `designpatterns\behavioural\template` package.
+
+
+
