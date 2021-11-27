@@ -104,3 +104,15 @@ Relevant codes for an Direction States in Direction Service can be implemented u
 
 > Sequentially access the element of a collection.
 
+**Note**:
+-  This helps us hide the internal implementation of iterator from the main class so that it doesn't break our main program when we choose to use differnet DS. we can simply make another iterator that implements Iterator interface.
+
+<br>
+
+### Strategy Pattern
+
+![Strategy Pattern](assets/StrategyUML.jpg)
+
+> Encapsulates an Algorithm inside a Class.
+
+It thus helps us to maintain **Single Responsibility** and **Open Close Principle.** Although it looks very similar to State Design, They are diferent. In state design, We could had a single state that showed various behaviours while here behaviour are initialized with different objects.
