@@ -58,7 +58,7 @@ Diagrammatic representation of classes and relationships(Inheritance, Compositio
 ### Memento Design Pattern
 
 
-![Memento Design Pattern](/assets/MementoUML.jpg)
+![Memento Design Pattern](assets/MementoUML.jpg)
 
 > It captures and restores an object's internal state.
 
