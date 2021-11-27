@@ -100,3 +100,7 @@ Relevant codes for an Direction States in Direction Service can be implemented u
 
 ### Iterator Pattern
 
+![State Design Pattern](assets/IteratorUML.jpg)
+
+> Sequentially access the element of a collection.
+
