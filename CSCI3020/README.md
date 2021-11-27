@@ -4,6 +4,10 @@
 Design Reusable and Extensible Object-Oriented Software.
 ``` 
 
+**Simplicity is the Ultimate Sophistication.**
+
+***Don't Abuse the Design Pattern.***
+
 ## What are Design Patterns?
 
 Elegant problems to repeating problems.
@@ -55,10 +59,11 @@ Diagrammatic representation of classes and relationships(Inheritance, Compositio
 
 ## Behavioural Design Pattern
 
+<br>
+
 ### Memento Design Pattern
 
-
-![Memento Design Pattern](/assets/MementoUML.jpg)
+![Memento Design Pattern](assets/MementoUML.jpg)
 
 > It captures and restores an object's internal state.
 
@@ -76,4 +81,17 @@ i.e. **Caretaker** Object is composed of many **Memento** Objects.
 
 Relevant codes for an undo function in Text Editors can be implemented using Memento Design Pattern and Relevant codes can be found under path: `designpatterns\behavioral\memento` package.
 
+<br>
+
 ### State Design Pattern
+
+![State Design Pattern](assets/StateUML.jpg)
+
+> Alters an object's behavior when its state changes.
+
+It can be achieved using Polymorphism and Interface/Abstract Class.
+
+**Note**:
+- It helps us implement **Open Closed Principle.** Open means our program is open for **extension** and closed for **modification**. Due to this we can add functionality to our code without modifying our main program.
+
+Relevant codes for an Direction States in Direction Service can be implemented using State Design Pattern and Relevant codes can be found under path: `designpatterns\behavioural\state\statedesignimplementation` package.
